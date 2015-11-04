@@ -1,0 +1,54 @@
+﻿2014/12/03 18:46:09 にビルドを開始しました。
+     1>ノード 2 上のプロジェクト "C:\cocos2d-x\projects\GameRecipe\proj.win32\GameRecipe.vcxproj" (Build ターゲット)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\cocos2dx" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\cocos2dx\include" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\cocos2dx\kazmath\include" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\cocos2dx\platform\win32" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\cocos2dx\platform\third_party\win32" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\cocos2dx\platform\third_party\win32\OGLES" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\external" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\external\chipmunk\include\chipmunk" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\CocosDenshion\include" /I"C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\extensions" /I..\Classes /I.. /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc110.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\Recipe39.cpp ..\Classes\menuScene.cpp
+         Recipe39.cpp
+     1>c:\cocos2d-x\cocos2dx\platform\ccsaxparser.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\cocos2d-x\extensions\gui\cccontrolextension\ccscale9sprite.h : warning C4819: ファイルは、現在のコード ページ (932) で表示できない文字を含んでいます。データの損失を防ぐために、ファイルを Unicode 形式で保存してください。
+     1>c:\cocos2d-x\projects\gamerecipe\classes\recipe39.cpp(109): warning C4018: '<' : signed と unsigned の数値を比較しようとしました。
+         コードを生成中...
+         スキップ中... (関連する変更は検出されませんでした)
+         menuScene.cpp
+       PreLinkEvent:
+         if not exist "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\" mkdir "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\cocos2d-x\projects\GameRecipe\proj.win32\..\..\..\external\libwebsockets\win32\lib\*.*" "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\"
+         :VCEnd
+         2 個のファイルをコピーしました
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\GameRecipe.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\\" libExtensions.lib libcocos2d.lib libCocosDenshion.lib opengl32.lib glew32.lib libBox2d.lib libchipmunk.lib libcurl_imp.lib pthreadVCE2.lib websockets.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\GameRecipe.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\GameRecipe.lib" /MACHINE:X86 /SAFESEH Debug.win32\AppDelegate.obj
+         Debug.win32\menuScene.obj
+         Debug.win32\Recipe10.obj
+         Debug.win32\Recipe11.obj
+         Debug.win32\Recipe12.obj
+         Debug.win32\Recipe13.obj
+         Debug.win32\Recipe14.obj
+         Debug.win32\Recipe15.obj
+         Debug.win32\Recipe16.obj
+         Debug.win32\Recipe17.obj
+         Debug.win32\Recipe26.obj
+         Debug.win32\Recipe28.obj
+         Debug.win32\Recipe3.obj
+         Debug.win32\Recipe30.obj
+         Debug.win32\Recipe31.obj
+         Debug.win32\Recipe32.obj
+         Debug.win32\Recipe34.obj
+         Debug.win32\Recipe39.obj
+         Debug.win32\Recipe4.obj
+         Debug.win32\Recipe5.obj
+         Debug.win32\Recipe6.obj
+         Debug.win32\Recipe7.obj
+         Debug.win32\Recipe8.obj
+         Debug.win32\Recipe9.obj
+         Debug.win32\main.obj
+         "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\libcocos2d.lib"
+         "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\libCocosDenshion.lib"
+         "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\libExtensions.lib"
+         "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\libBox2D.lib"
+         "C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\libchipmunk.lib"
+     1>AppDelegate.obj : warning LNK4075: /EDITANDCONTINUE は /SAFESEH の指定によって無視されます。
+         GameRecipe.vcxproj -> C:\cocos2d-x\projects\GameRecipe\proj.win32\Debug.win32\GameRecipe.exe
+     1>プロジェクト "C:\cocos2d-x\projects\GameRecipe\proj.win32\GameRecipe.vcxproj" (Build ターゲット) のビルドが完了しました。
+
+ビルドに成功しました。
+
+経過時間 00:00:06.14

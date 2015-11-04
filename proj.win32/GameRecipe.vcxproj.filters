@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{84a8ebd7-7cf0-47f6-b75e-d441df67da40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{bb6c862e-70e9-49d9-81b7-3829a6f50471}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\menuScene.cpp">
+      <Filter>Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\Recipe3.cpp" />
+    <ClCompile Include="..\Classes\Recipe7.cpp" />
+    <ClCompile Include="..\Classes\Recipe6.cpp" />
+    <ClCompile Include="..\Classes\Recipe5.cpp" />
+    <ClCompile Include="..\Classes\Recipe4.cpp" />
+    <ClCompile Include="..\Classes\Recipe8.cpp" />
+    <ClCompile Include="..\Classes\Recipe9.cpp" />
+    <ClCompile Include="..\Classes\Recipe10.cpp" />
+    <ClCompile Include="..\Classes\Recipe11.cpp" />
+    <ClCompile Include="..\Classes\Recipe12.cpp" />
+    <ClCompile Include="..\Classes\Recipe13.cpp" />
+    <ClCompile Include="..\Classes\Recipe14.cpp" />
+    <ClCompile Include="..\Classes\Recipe15.cpp" />
+    <ClCompile Include="..\Classes\Recipe16.cpp" />
+    <ClCompile Include="..\Classes\Recipe17.cpp" />
+    <ClCompile Include="..\Classes\Recipe26.cpp" />
+    <ClCompile Include="..\Classes\Recipe28.cpp" />
+    <ClCompile Include="..\Classes\Recipe30.cpp" />
+    <ClCompile Include="..\Classes\Recipe31.cpp" />
+    <ClCompile Include="..\Classes\Recipe32.cpp" />
+    <ClCompile Include="..\Classes\Recipe34.cpp" />
+    <ClCompile Include="..\Classes\Recipe39.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\menuScene.h">
+      <Filter>Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\Recipe3.h" />
+    <ClInclude Include="..\Classes\Recipe7.h" />
+    <ClInclude Include="..\Classes\Recipe6.h" />
+    <ClInclude Include="..\Classes\Recipe5.h" />
+    <ClInclude Include="..\Classes\Recipe4.h" />
+    <ClInclude Include="..\Classes\Recipe8.h" />
+    <ClInclude Include="..\Classes\Recipe9.h" />
+    <ClInclude Include="..\Classes\Recipe10.h" />
+    <ClInclude Include="..\Classes\Recipe11.h" />
+    <ClInclude Include="..\Classes\Recipe12.h" />
+    <ClInclude Include="..\Classes\Recipe13.h" />
+    <ClInclude Include="..\Classes\Recipe14.h" />
+    <ClInclude Include="..\Classes\Recipe15.h" />
+    <ClInclude Include="..\Classes\Recipe16.h" />
+    <ClInclude Include="..\Classes\Recipe17.h" />
+    <ClInclude Include="..\Classes\Recipe26.h" />
+    <ClInclude Include="..\Classes\Recipe28.h" />
+    <ClInclude Include="..\Classes\Recipe30.h" />
+    <ClInclude Include="..\Classes\Recipe31.h" />
+    <ClInclude Include="..\Classes\Recipe32.h" />
+    <ClInclude Include="..\Classes\Recipe34.h" />
+    <ClInclude Include="..\Classes\Recipe39.h" />
+  </ItemGroup>
+</Project>
